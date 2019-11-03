@@ -1,9 +1,9 @@
-alert("hi");
-
-next = false;
+let password = "jarChat#3592";
+let input;
+let next = 0;
 do{
-	var pass = prompt("Passwort:");
-	if(pass == "J"){
-		next = true;
+	input = prompt("Passwort:");
+	if(input == password){
+		next = 1;
 	}
-}while(next = false);
+}while(next == 0);
